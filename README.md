@@ -218,7 +218,7 @@ Issues and PRs are welcome. Please keep steps modular and add tests where possib
 ## 📦 Reproduce in 60 seconds
 
 ```bash
-git clone https://github.com/<you>/Smart_Engine.git
+git clone https://github.com/Bertal-Youssef/Smart_Engine.git
 cd Smart_Engine
 python -m venv .venv && . .venv/Scripts/activate  # Windows
 # or: python3 -m venv .venv && source .venv/bin/activate  # Linux/WSL
