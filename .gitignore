@@ -1,15 +1,76 @@
-# Python virtual environment
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual envs
 .venv/
+venv/
+env/
+ENV/
+.python-version
 
-# PyCharm/IntelliJ files
-.idea/
-
-# Jupyter Notebook files
+# Jupyter
 .ipynb_checkpoints/
 
-# Other cache files
-__pycache__/
+# Packaging / build
+build/
+dist/
+*.egg-info/
+.eggs/
 
-# MLOps-specific files
-/mlruns/
-/data/
+# Logs / dumps
+*.log
+*.out
+*.err
+
+# Editors / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Env / secrets
+.env
+.env.*
+*.env
+*.secret
+secrets.json
+
+# =========================
+# Project-specific (ML / MLOps)
+# =========================
+# MLflow local tracking directory (if created in repo)
+mlruns/
+mlartifacts/
+
+# ZenML (if any local files end up in repo; usually config lives in ~/.config)
+.zen/
+.zenml/
+
+# Model artifacts
+models/
+artifacts/
+outputs/
+checkpoints/
+
+# Data (keep raw/processed out of Git; add a tiny sample under data/sample if you need)
+data/raw/
+data/interim/
+data/processed/
+data/external/
+*.parquet
+*.feather
+*.h5
+*.pkl
+*.joblib
+*.npz
+*.npy
+*.csv
+*.tsv
+*.zip
+
+# If you want to keep small demo files, unignore a sample dir:
+# !data/sample/**
