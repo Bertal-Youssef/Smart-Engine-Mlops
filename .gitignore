@@ -1,0 +1,15 @@
+# Python virtual environment
+.venv/
+
+# PyCharm/IntelliJ files
+.idea/
+
+# Jupyter Notebook files
+.ipynb_checkpoints/
+
+# Other cache files
+__pycache__/
+
+# MLOps-specific files
+/mlruns/
+/data/
